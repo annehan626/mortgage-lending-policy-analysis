@@ -41,7 +41,7 @@ Across all six years, White applicants had higher approval rates than Black appl
 
 | Year | White Approval Rate (%) | Black Approval Rate (%) | Gap (pp) |
 | ---- | ----------------------: | ----------------------: | -------: |
-| 2019 | 81.3 | 70.8 | 10.5 |
+| 2019 | 81.3 | 70.7 | 10.5 |
 | 2020 | 86.9 | 78.4 | 8.5 |
 | 2021 | 87.6 | 79.6 | 8.0 |
 | 2022 | 79.4 | 69.6 | 9.8 |
@@ -69,7 +69,7 @@ Regression coefficients were converted to odds ratios for interpretation. An odd
 | 2021 | 0.626 |
 | 2022 | 0.665 |
 | 2023 | 0.635 |
-| 2024 | 0.647 |
+| 2024 | 0.646 |
 
 Across all six years, Black applicants had significantly lower estimated odds of mortgage approval than White applicants after controlling for observable borrower and underwriting characteristics. The estimated odds ratios ranged from **0.618 to 0.665**, corresponding to approximately **33% to 38% lower approval odds**.
 
