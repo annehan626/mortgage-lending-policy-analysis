@@ -129,3 +129,14 @@ The interaction was also positive and statistically significant for Q1 and Q2 bo
 **Methods:** Logistic Regression, Interaction Modeling, Odds Ratio Interpretation, Heterogeneity Analysis, Descriptive Statistics, Data Cleaning & Transformation
 
 **Data:** Home Mortgage Disclosure Act (HMDA), 2019–2024 California mortgage applications
+
+## Project Structure
+- `README.md` — Project overview, methodology, results, and key findings
+- `figures/` — Visualizations of mortgage approval outcomes
+- `analysis/` — R scripts used for data preparation, regression modeling, and policy analysis
+
+## Author
+**Anne Han**  
+M.S. Business Analytics Candidate, UCLA Anderson School of Management  
+B.S. Business Economics, University of California, San Diego
+
