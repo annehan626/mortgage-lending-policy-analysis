@@ -74,3 +74,24 @@ Regression coefficients were converted to odds ratios for interpretation. An odd
 Across all six years, Black applicants had significantly lower estimated odds of mortgage approval than White applicants after controlling for observable borrower and underwriting characteristics. The estimated odds ratios ranged from **0.618 to 0.665**, corresponding to approximately **33% to 38% lower approval odds**.
 
 Although the annual estimates suggest that the disparity may have narrowed somewhat after 2021, comparing separate yearly models does not provide a formal test of whether the Qualified Mortgage reform changed the racial approval gap. I therefore estimated a pooled interaction model to directly evaluate the policy change.
+
+### 3. Qualified Mortgage Reform — Pooled Interaction Model
+To formally evaluate whether the racial approval gap changed following the 2021 Qualified Mortgage reform, I estimated a pooled logistic regression model using mortgage applications from 2019–2024.
+
+The model includes an interaction between **Black applicant status** and the **post-reform period (2022–2024)**:
+
+**Black × Post-QM**
+
+This interaction tests whether the approval odds of Black applicants changed relative to White applicants after the reform, while controlling for applicant income, loan amount, property value, and debt-to-income ratio.
+
+| Variable | Odds Ratio |
+| -------- | ---------: |
+| Black | 0.615 |
+| Post-QM | 0.824 |
+| **Black × Post-QM** | **1.083** |
+
+The interaction term is positive and statistically significant (**p < 0.001**). The estimated odds ratio of **1.083** indicates that Black applicants experienced approximately **8.3% higher relative approval odds in the post-reform period compared with the pre-reform period**.
+
+Importantly, this does not mean that Black applicants had higher approval odds than White applicants after the reform. Rather, the results indicate that the existing racial approval disparity became modestly smaller.
+
+Overall, the analysis provides evidence of a **modest narrowing of the adjusted racial approval gap** following the 2021 Qualified Mortgage reform, while substantial disparities remained.
