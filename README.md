@@ -28,3 +28,25 @@ Key variables include:
 - **Debt-to-income ratio**
 - **Application year**
 - **Pre-/post-QM reform period**
+
+## Analytical Approach
+### 1. Descriptive Analysis — Mortgage Approval Rates
+
+I first compared annual mortgage approval rates for Black and White applicants from 2019 through 2024 to examine how the raw racial approval gap evolved before and after the Qualified Mortgage reform.
+
+Across all six years, White applicants had higher approval rates than Black applicants. The unadjusted approval gap ranged from approximately **8 to 11 percentage points**, indicating persistent differences in mortgage approval outcomes throughout the study period.
+
+![Mortgage approval rates for Black and White applicants, 2019–2024](figures/mortgage_approval_rates.png)
+
+*Annual mortgage approval rates for Black and White applicants in the California HMDA analytical sample, 2019–2024.*
+
+| Year | White Approval Rate | Black Approval Rate | Gap |
+| ---- | ------------------: | ------------------: | --: |
+| 2019 | 81.3% | 70.8% | 10.5 pp |
+| 2020 | 86.9% | 78.4% | 8.5 pp |
+| 2021 | 87.6% | 79.6% | 8.0 pp |
+| 2022 | 79.4% | 69.6% | 9.8 pp |
+| 2023 | 75.9% | 64.7% | 11.2 pp |
+| 2024 | 77.0% | 65.7% | 11.3 pp |
+
+Because these raw differences do not account for differences in borrower financial characteristics, descriptive approval rates alone cannot determine whether disparities persist among otherwise observationally similar applicants. I therefore used logistic regression to estimate approval disparities while controlling for observable borrower and loan characteristics.
