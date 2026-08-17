@@ -95,3 +95,19 @@ The interaction term is positive and statistically significant (**p < 0.001**). 
 Importantly, this does not mean that Black applicants had higher approval odds than White applicants after the reform. Rather, the results indicate that the existing racial approval disparity became modestly smaller.
 
 Overall, the analysis provides evidence of a **modest narrowing of the adjusted racial approval gap** following the 2021 Qualified Mortgage reform, while substantial disparities remained.
+
+### 4. Income Heterogeneity Analysis
+To examine whether the estimated post-reform change in racial approval disparities differed across borrower income levels, I re-estimated the pooled interaction model separately for each income quartile.
+
+Income quartiles were defined using the applicant income distribution in the pooled 2019–2024 sample. For each group, the **Black × Post-QM** interaction measures how the relative approval odds of Black applicants changed following the reform.
+
+| Income Quartile | Income Range | Black × Post-QM Odds Ratio | p-value |
+| --------------- | ------------ | -------------------------: | ------: |
+| Q1 | $10,000–$80,000 | 1.049 | 0.040 |
+| Q2 | $80,000–$120,000 | 1.111 | <0.001 |
+| Q3 | $120,000–$186,000 | **1.174** | **<0.001** |
+| Q4 | Above $186,000 | 1.037 | 0.192 |
+
+The estimated narrowing of the racial approval gap was strongest among **Q3 borrowers ($120,000–$186,000)**, where Black applicants experienced approximately **17.4% higher relative post-reform approval odds** compared with the pre-reform period.
+
+The interaction was also positive and statistically significant for Q1 and Q2 borrowers, while the Q4 estimate was smaller and not statistically significant. These results suggest that the estimated post-reform change in racial approval disparities was not uniform across income groups.
