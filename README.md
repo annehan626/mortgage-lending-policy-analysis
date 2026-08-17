@@ -111,3 +111,21 @@ Income quartiles were defined using the applicant income distribution in the poo
 The estimated narrowing of the racial approval gap was strongest among **Q3 borrowers ($120,000–$186,000)**, where Black applicants experienced approximately **17.4% higher relative post-reform approval odds** compared with the pre-reform period.
 
 The interaction was also positive and statistically significant for Q1 and Q2 borrowers, while the Q4 estimate was smaller and not statistically significant. These results suggest that the estimated post-reform change in racial approval disparities was not uniform across income groups.
+
+## Key Findings
+- **Racial disparities persisted throughout the study period.** White applicants had higher unadjusted mortgage approval rates than Black applicants in every year from 2019–2024, with raw approval gaps ranging from approximately **8 to 11 percentage points**.
+
+- **Disparities remained after controlling for observable borrower and loan characteristics.** Annual logistic regression models estimated Black applicant odds ratios between **0.618 and 0.665**, corresponding to approximately **33% to 38% lower approval odds** relative to otherwise observationally similar White applicants.
+
+- **The adjusted racial approval gap narrowed modestly following the 2021 QM reform.** The pooled **Black × Post-QM** interaction produced an odds ratio of **1.083 (p < 0.001)**, indicating approximately **8.3% higher relative post-reform approval odds** for Black applicants compared with the pre-reform period.
+
+- **The estimated post-reform change varied across income groups.** The strongest interaction was observed among **Q3 borrowers ($120,000–$186,000)**, with an odds ratio of **1.174**, while the estimate for the highest-income quartile was smaller and not statistically significant.
+
+- **Substantial disparities remained despite the estimated narrowing.** The results suggest a modest improvement in relative approval outcomes following the reform, but Black applicants continued to experience lower adjusted approval odds than White applicants.
+
+## Tools & Methods
+**Language:** R
+
+**Methods:** Logistic Regression, Interaction Modeling, Odds Ratio Interpretation, Heterogeneity Analysis, Descriptive Statistics, Data Cleaning & Transformation
+
+**Data:** Home Mortgage Disclosure Act (HMDA), 2019–2024 California mortgage applications
