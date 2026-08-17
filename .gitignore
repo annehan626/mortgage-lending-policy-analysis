@@ -1,0 +1,10 @@
+# HMDA data files
+data/
+
+# R project/session files
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio project settings
+.Rproj.user/
