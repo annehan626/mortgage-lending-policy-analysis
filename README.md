@@ -39,14 +39,14 @@ Across all six years, White applicants had higher approval rates than Black appl
 
 *Annual mortgage approval rates for Black and White applicants in the California HMDA analytical sample, 2019–2024.*
 
-| Year | White Approval Rate | Black Approval Rate | Gap |
-| ---- | ------------------: | ------------------: | --: |
-| 2019 | 81.3% | 70.8% | 10.5 pp |
-| 2020 | 86.9% | 78.4% | 8.5 pp |
-| 2021 | 87.6% | 79.6% | 8.0 pp |
-| 2022 | 79.4% | 69.6% | 9.8 pp |
-| 2023 | 75.9% | 64.7% | 11.2 pp |
-| 2024 | 77.0% | 65.7% | 11.3 pp |
+| Year | White Approval Rate (%) | Black Approval Rate (%) | Gap (pp) |
+| ---- | ----------------------: | ----------------------: | -------: |
+| 2019 | 81.3 | 70.8 | 10.5 |
+| 2020 | 86.9 | 78.4 | 8.5 |
+| 2021 | 87.6 | 79.6 | 8.0 |
+| 2022 | 79.4 | 69.6 | 9.8 |
+| 2023 | 75.9 | 64.7 | 11.2 |
+| 2024 | 77.0 | 65.7 | 11.3 |
 
 Because these raw differences do not account for differences in borrower financial characteristics, descriptive approval rates alone cannot determine whether disparities persist among otherwise observationally similar applicants. I therefore used logistic regression to estimate approval disparities while controlling for observable borrower and loan characteristics.
 
@@ -102,7 +102,7 @@ To examine whether the estimated post-reform change in racial approval dispariti
 Income quartiles were defined using the applicant income distribution in the pooled 2019–2024 sample. For each group, the **Black × Post-QM** interaction measures how the relative approval odds of Black applicants changed following the reform.
 
 | Income Quartile | Income Range | Black × Post-QM Odds Ratio | p-value |
-| --------------- | ------------ | -------------------------: | ------: |
+| --------------- | :----------: | -------------------------: | ------: |
 | Q1 | $10,000–$80,000 | 1.049 | 0.040 |
 | Q2 | $80,000–$120,000 | 1.111 | <0.001 |
 | Q3 | $120,000–$186,000 | **1.174** | **<0.001** |
