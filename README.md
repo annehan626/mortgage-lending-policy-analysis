@@ -90,7 +90,9 @@ This interaction tests whether the approval odds of Black applicants changed rel
 | Post-QM | 0.824 |
 | **Black × Post-QM** | **1.083** |
 
-The interaction term is positive and statistically significant (**p < 0.001**). The estimated odds ratio of **1.083** indicates that Black applicants experienced approximately **8.3% higher relative approval odds in the post-reform period compared with the pre-reform period**.
+The interaction term is statistically significant (**p < 0.001**), with an estimated odds ratio of **1.083**. This indicates that Black applicants experienced approximately **8.3% higher relative approval odds in the post-reform period compared with the pre-reform period**.
+
+Importantly, this does not mean that Black applicants had higher approval odds than White applicants after the reform. Rather, the results indicate that the existing racial approval disparity became modestly smaller.
 
 Importantly, this does not mean that Black applicants had higher approval odds than White applicants after the reform. Rather, the results indicate that the existing racial approval disparity became modestly smaller.
 
