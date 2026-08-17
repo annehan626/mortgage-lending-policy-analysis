@@ -31,7 +31,6 @@ Key variables include:
 
 ## Analytical Approach
 ### 1. Descriptive Analysis — Mortgage Approval Rates
-
 I first compared annual mortgage approval rates for Black and White applicants from 2019 through 2024 to examine how the raw racial approval gap evolved before and after the Qualified Mortgage reform.
 
 Across all six years, White applicants had higher approval rates than Black applicants. The unadjusted approval gap ranged from approximately **8 to 11 percentage points**, indicating persistent differences in mortgage approval outcomes throughout the study period.
@@ -50,3 +49,28 @@ Across all six years, White applicants had higher approval rates than Black appl
 | 2024 | 77.0% | 65.7% | 11.3 pp |
 
 Because these raw differences do not account for differences in borrower financial characteristics, descriptive approval rates alone cannot determine whether disparities persist among otherwise observationally similar applicants. I therefore used logistic regression to estimate approval disparities while controlling for observable borrower and loan characteristics.
+
+### 2. Logistic Regression — Adjusted Racial Approval Disparities
+To examine whether racial disparities persisted after accounting for observable differences in borrower and loan characteristics, I estimated separate logistic regression models for each year from 2019 through 2024.
+
+The dependent variable indicates whether a mortgage application was approved, while the primary explanatory variable identifies Black applicants, with White applicants serving as the reference group. Each model controls for:
+
+- **Applicant income**
+- **Loan amount**
+- **Property value**
+- **Debt-to-income ratio**
+
+Regression coefficients were converted to odds ratios for interpretation. An odds ratio below 1 indicates lower approval odds for Black applicants relative to otherwise observationally similar White applicants.
+
+| Year | Black Applicant Odds Ratio |
+| ---- | -------------------------: |
+| 2019 | 0.621 |
+| 2020 | 0.618 |
+| 2021 | 0.626 |
+| 2022 | 0.665 |
+| 2023 | 0.635 |
+| 2024 | 0.647 |
+
+Across all six years, Black applicants had significantly lower estimated odds of mortgage approval than White applicants after controlling for observable borrower and underwriting characteristics. The estimated odds ratios ranged from **0.618 to 0.665**, corresponding to approximately **33% to 38% lower approval odds**.
+
+Although the annual estimates suggest that the disparity may have narrowed somewhat after 2021, comparing separate yearly models does not provide a formal test of whether the Qualified Mortgage reform changed the racial approval gap. I therefore estimated a pooled interaction model to directly evaluate the policy change.
