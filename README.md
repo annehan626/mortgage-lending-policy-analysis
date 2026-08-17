@@ -108,6 +108,10 @@ Income quartiles were defined using the applicant income distribution in the poo
 | Q3 | $120,000–$186,000 | **1.174** | **<0.001** |
 | Q4 | Above $186,000 | 1.037 | 0.192 |
 
+![QM reform effects by income quartile](figures/qm_effects_by_income_quartile.png)
+
+*Estimated Black × Post-QM interaction odds ratios by income quartile with 95% confidence intervals. The dashed line at 1.00 represents no estimated change in relative approval odds.*
+
 The estimated narrowing of the racial approval gap was strongest among **Q3 borrowers ($120,000–$186,000)**, where Black applicants experienced approximately **17.4% higher relative post-reform approval odds** compared with the pre-reform period.
 
 The interaction was also positive and statistically significant for Q1 and Q2 borrowers, while the Q4 estimate was smaller and not statistically significant. These results suggest that the estimated post-reform change in racial approval disparities was not uniform across income groups.
