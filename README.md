@@ -132,6 +132,8 @@ The interaction was also positive and statistically significant for Q1 and Q2 bo
 ## Tools & Methods
 **Language:** R
 
+**Libraries:** tidyverse, data.table, ggplot2
+
 **Methods:** Logistic Regression, Interaction Modeling, Odds Ratio Interpretation, Heterogeneity Analysis, Descriptive Statistics, Data Cleaning & Transformation
 
 **Data:** Home Mortgage Disclosure Act (HMDA), 2019–2024 California mortgage applications
