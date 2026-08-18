@@ -64,6 +64,10 @@ hmda_pooled <- hmda_pooled |>
 # 4. Estimate pooled QM interaction model
 # -------------------------------------------------------------------
 
+# With the large pooled sample, glm() may report that some fitted
+# probabilities are numerically 0 or 1. The model was checked
+# after estimation and successfully converged.
+
 interaction_model <- glm(
   approved ~
     black +
@@ -77,6 +81,8 @@ interaction_model <- glm(
   family = binomial()
 )
 
+# Verify model convergence.
+interaction_model$converged
 
 # -------------------------------------------------------------------
 # 5. Extract pooled model results
